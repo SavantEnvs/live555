@@ -1,0 +1,10 @@
+project: savantenvs/live555
+target: mkv
+duration: 1200
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_mkv
+    libfuzzer: true
+    timeout: 5
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mkv/testsuite

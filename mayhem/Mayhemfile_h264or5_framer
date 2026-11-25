@@ -1,0 +1,10 @@
+project: savantenvs/live555
+target: h264or5-framer
+duration: 1200
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_h264or5_framer
+    libfuzzer: true
+    timeout: 5
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/h264or5-framer/testsuite

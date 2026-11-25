@@ -1,0 +1,4 @@
+DESCRIBE rtsp://127.0.0.1/test.wav RTSP/1.0
+CSeq: 2
+Authorization: Digest username="user", realm="LIVE555 Streaming Media", nonce="abc", uri="rtsp://127.0.0.1/test.wav", response="00000000000000000000000000000000"
+

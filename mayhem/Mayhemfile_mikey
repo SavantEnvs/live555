@@ -1,0 +1,9 @@
+project: savantenvs/live555
+target: mikey
+duration: 1200
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_mikey
+    libfuzzer: true
+    timeout: 5
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar

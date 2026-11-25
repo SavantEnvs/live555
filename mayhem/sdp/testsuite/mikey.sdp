@@ -1,0 +1,8 @@
+v=0
+o=- 1 1 IN IP4 127.0.0.1
+s=x
+t=0 0
+a=key-mgmt:mikey AQAFAP6WLrsCAAAAAAHkn2ok1gEdAQAA
+m=video 0 RTP/SAVP 26
+c=IN IP4 0.0.0.0
+a=rtpmap:26 JPEG/90000
